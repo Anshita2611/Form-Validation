@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Error message styling */
+.error{
+    color: red; font-size: 0.9em; 
+}
+
+/* General styles */
+body {
+    background: linear-gradient(45deg, #F0C1E1, #CB9DF0);
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styling */
+.container {
+    max-width: 900px;
+    background-color: none;
+    padding: 2em;
+    margin-top: 50px;
+    border: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form heading */
+.text-center {
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: bold;
+
+}
+
+/* Input fields */
+input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    width: 100%;
+    padding: 0.75em;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
